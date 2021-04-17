@@ -9615,11 +9615,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspace_POC\\PDF-POCs\\DevExpress_OnOwn\\DevExpress_TryOut_1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "D:\\Workspace_POC\\PDF-POCs\\DevExpress_OnOwn\\TryOut_Reporting_DevExpress\\DevExpress_TryOut_1\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "D:\\Workspace_POC\\PDF-POCs\\DevExpress_OnOwn\\DevExpress_TryOut_1\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "D:\\Workspace_POC\\PDF-POCs\\DevExpress_OnOwn\\TryOut_Reporting_DevExpress\\DevExpress_TryOut_1\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\Kumb_Gan\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspace_POC\\PDF-POCs\\DevExpress_OnOwn\\DevExpress_TryOut_1\\WebApplication1\\obj\\",
+      "outputPath": "D:\\Workspace_POC\\PDF-POCs\\DevExpress_OnOwn\\TryOut_Reporting_DevExpress\\DevExpress_TryOut_1\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",

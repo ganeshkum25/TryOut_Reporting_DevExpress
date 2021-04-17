@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bbUoFm6iF3pwHKl2AOYliiOVp7Tnj84E7qdCuG9xdv0Gf+GECTd96fFGlRMiUATcLZXipBydBwYKoKfg5aV4AA==",
+  "dgSpecHash": "WvH1QtKuQLnlHJLt7/DI1Q28ZJPrRHTF9osW+W2OD2HM5+cW516tv214pO84igS5+/lgKXWr6oK9/fj2DnvT3g==",
   "success": true,
-  "projectFilePath": "D:\\Workspace_POC\\PDF-POCs\\DevExpress_OnOwn\\DevExpress_TryOut_1\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "D:\\Workspace_POC\\PDF-POCs\\DevExpress_OnOwn\\TryOut_Reporting_DevExpress\\DevExpress_TryOut_1\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages\\devexpress.aspnetcore.common\\20.2.6\\devexpress.aspnetcore.common.20.2.6.nupkg.sha512",
     "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages\\devexpress.aspnetcore.core\\20.2.6\\devexpress.aspnetcore.core.20.2.6.nupkg.sha512",
