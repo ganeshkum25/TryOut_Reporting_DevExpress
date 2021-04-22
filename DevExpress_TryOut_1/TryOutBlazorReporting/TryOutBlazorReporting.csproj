@@ -4,4 +4,37 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="PreDefinedReports\EmployeeReport.vsrepx" />
+    <None Remove="Reports\EmployeeReport.repx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="PreDefinedReports\EmployeeReport.vsrepx" />
+    <EmbeddedResource Include="Reports\EmployeeReport.repx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Blazor.Reporting" Version="20.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="PreDefinedReports\EmployeeReport.cs">
+      <DependentUpon>EmployeeReport.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PreDefinedReports\EmployeeReport.Designer.cs">
+      <DependentUpon>EmployeeReport.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeReport.cs">
+      <DependentUpon>EmployeeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeReport.Designer.cs">
+      <DependentUpon>EmployeeReport.repx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
 </Project>

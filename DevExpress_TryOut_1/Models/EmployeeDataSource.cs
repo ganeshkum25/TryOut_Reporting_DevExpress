@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq;
 using DevExpress.DataAccess.ObjectBinding;
 
 public class Employee
@@ -86,12 +87,21 @@ public class EmployeeDataSource
     public IEnumerable<Employee> GetEmployeeList()
     {
         List<Employee> employees = new List<Employee>();
-        if (this.department == "Management")
-            employees = this.management;
-        if (this.department == "Financial")
-            employees = this.financial;
-        if (this.department == "Sales")
-            employees = this.sales;
+
+        employees.AddRange(management);
+        employees.AddRange(financial);
+        employees.AddRange(sales);
+
+        employees.AddRange(employees);
+        employees.AddRange(employees);
+        employees.AddRange(employees);
+
+        //if (this.department == "Management")
+        //    employees = this.management;
+        //if (this.department == "Financial")
+        //    employees = this.financial;
+        //if (this.department == "Sales")
+        //    employees = this.sales;
         foreach (var employee in employees)
             yield return employee;
     }
