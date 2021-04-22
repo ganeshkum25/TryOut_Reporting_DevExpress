@@ -13,6 +13,9 @@
     <Compile Update="PredefinedReports\XtraReport1.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Update="Reports\EmployeeRep2.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Update="Reports\Employees.cs">
       <SubType>Component</SubType>
     </Compile>
