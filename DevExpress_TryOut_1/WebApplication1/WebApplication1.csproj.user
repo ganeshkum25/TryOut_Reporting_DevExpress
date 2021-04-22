@@ -7,6 +7,9 @@
     <ActiveDebugProfile>WebApplication1</ActiveDebugProfile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Update="PredefinedReports\EmployeeRep2.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Update="PredefinedReports\XtraReport1.cs">
       <SubType>Component</SubType>
     </Compile>

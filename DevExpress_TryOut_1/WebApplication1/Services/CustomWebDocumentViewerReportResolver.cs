@@ -15,12 +15,18 @@ namespace Reporting_ObjectDS_AspNetCore
                 rep.DataSource = CreateObjectDataSource(reportEntry);
                 return rep;
             }
+            if (reportEntry.StartsWith("EmployeeRep2"))
+            {
+                XtraReport rep = CreateReport(reportEntry);
+                rep.DataSource = CreateObjectDataSource(reportEntry);
+                return rep;
+            }
             return new XtraReport();
         }
 
         private object CreateObjectDataSource(string reportName)
         {
-            if (reportName == "XtraReport1")
+            if (reportName == "XtraReport1" || reportName == "EmployeeRep2")
             {
                 //ObjectDataSource dataSource = new ObjectDataSource();
                 //dataSource.Name = "EmployeeObjectDS";
@@ -94,11 +100,11 @@ namespace Reporting_ObjectDS_AspNetCore
                 DevExpress.XtraReports.Parameters.Parameter param =
                     new DevExpress.XtraReports.Parameters.Parameter()
                     {
-                        Name = "parameterNoOfItems",
-                        Type = typeof(int),
-                        Value = 5
+                        Name = "parameterDepartment",
+                        Type = typeof(string),
+                        Value = "Management"
                     };
-                param.Description = "Number of Items";
+                param.Description = "Department";
                 report.Parameters.Add(param);
                 report.RequestParameters = false;
                 return report;

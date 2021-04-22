@@ -6,8 +6,10 @@
 
   <ItemGroup>
     <None Remove="PredefinedReports\Employee2.vsrepx" />
+    <None Remove="PredefinedReports\EmployeeRep2.vsrepx" />
     <None Remove="PredefinedReports\Employees.vsrepx" />
     <None Remove="PredefinedReports\XtraReport1.vsrepx" />
+    <None Remove="Reports\EmployeeRep2.repx" />
     <None Remove="Reports\EmployeeReport.vsrepx" />
     <None Remove="Reports\Employees.repx" />
     <None Remove="Reports\HelloWorld.repx" />
@@ -15,7 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="PredefinedReports\EmployeeRep2.vsrepx" />
     <EmbeddedResource Include="PredefinedReports\XtraReport1.vsrepx" />
+    <EmbeddedResource Include="Reports\EmployeeRep2.repx" />
     <EmbeddedResource Include="Reports\Employees.repx" />
   </ItemGroup>
 
@@ -30,6 +34,12 @@
     <Compile Update="PredefinedReports\Employee2.Designer.cs">
       <DependentUpon>Employee2.vsrepx</DependentUpon>
     </Compile>
+    <Compile Update="PredefinedReports\EmployeeRep2.cs">
+      <DependentUpon>EmployeeRep2.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\EmployeeRep2.Designer.cs">
+      <DependentUpon>EmployeeRep2.vsrepx</DependentUpon>
+    </Compile>
     <Compile Update="PredefinedReports\Employees.cs">
       <DependentUpon>Employees.vsrepx</DependentUpon>
     </Compile>
@@ -41,6 +51,12 @@
     </Compile>
     <Compile Update="PredefinedReports\XtraReport1.Designer.cs">
       <DependentUpon>XtraReport1.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeRep2.cs">
+      <DependentUpon>EmployeeRep2.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeRep2.Designer.cs">
+      <DependentUpon>EmployeeRep2.repx</DependentUpon>
     </Compile>
     <Compile Update="Reports\EmployeeReport.cs">
       <DependentUpon>EmployeeReport.vsrepx</DependentUpon>

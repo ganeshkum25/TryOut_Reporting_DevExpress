@@ -61,9 +61,10 @@ public class EmployeeDataSource
     }
 
     [HighlightedMember]
-    public EmployeeDataSource(string department)
+    public EmployeeDataSource(string department = "Management")
     {
         this.department = department;
+        this.department = "Management";
     }
 
     [HighlightedMember]
@@ -84,6 +85,14 @@ public class EmployeeDataSource
     [HighlightedMember]
     public IEnumerable<Employee> GetEmployeeList()
     {
-        return this.management;
+        List<Employee> employees = new List<Employee>();
+        if (this.department == "Management")
+            employees = this.management;
+        if (this.department == "Financial")
+            employees = this.financial;
+        if (this.department == "Sales")
+            employees = this.sales;
+        foreach (var employee in employees)
+            yield return employee;
     }
 }

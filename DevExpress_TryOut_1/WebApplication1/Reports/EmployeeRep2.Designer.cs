@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1.PredefinedReports {
+namespace WebApplication1.Reports {
     
-    public partial class XtraReport1 : DevExpress.XtraReports.UI.XtraReport {
+    public partial class EmployeeRep2 : DevExpress.XtraReports.UI.XtraReport {
         private void InitializeComponent() {
-            DevExpress.XtraReports.ReportInitializer reportInitializer = new DevExpress.XtraReports.ReportInitializer(this, "WebApplication1.PredefinedReports.XtraReport1.vsrepx");
+            DevExpress.XtraReports.ReportInitializer reportInitializer = new DevExpress.XtraReports.ReportInitializer(this, "WebApplication1.Reports.EmployeeRep2.repx");
 
             // Controls
             this.TopMargin = reportInitializer.GetControl<DevExpress.XtraReports.UI.TopMarginBand>("TopMargin");
@@ -36,9 +36,8 @@ namespace WebApplication1.PredefinedReports {
             this.department = reportInitializer.GetParameter("department");
 
             // Data Sources
-            this.objectDataSource2 = reportInitializer.GetDataSource<DevExpress.DataAccess.ObjectBinding.ObjectDataSource>("objectDataSource2");
-            this.objectDataSource2.DataSource = typeof(EmployeeDataSource);
             this.objectDataSource1 = reportInitializer.GetDataSource<DevExpress.DataAccess.ObjectBinding.ObjectDataSource>("objectDataSource1");
+            this.objectDataSource1.DataSource = typeof(EmployeeDataSource);
 
             // Styles
             this.Title = reportInitializer.GetStyle("Title");
@@ -63,13 +62,12 @@ namespace WebApplication1.PredefinedReports {
         private DevExpress.XtraReports.UI.XRTableRow tableRow2;
         private DevExpress.XtraReports.UI.XRTableCell tableCell3;
         private DevExpress.XtraReports.UI.XRTableCell tableCell4;
-        private DevExpress.DataAccess.ObjectBinding.ObjectDataSource objectDataSource2;
+        private DevExpress.DataAccess.ObjectBinding.ObjectDataSource objectDataSource1;
         private DevExpress.XtraReports.UI.XRControlStyle Title;
         private DevExpress.XtraReports.UI.XRControlStyle DetailCaption1;
         private DevExpress.XtraReports.UI.XRControlStyle DetailData1;
         private DevExpress.XtraReports.UI.XRControlStyle DetailData3_Odd;
         private DevExpress.XtraReports.UI.XRControlStyle PageInfo;
         private DevExpress.XtraReports.Parameters.Parameter department;
-        private DevExpress.DataAccess.ObjectBinding.ObjectDataSource objectDataSource1;
     }
 }
