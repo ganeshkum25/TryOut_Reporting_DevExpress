@@ -3,9 +3,9 @@ using DevExpress.XtraReports.UI;
 
 namespace WebApplication1.Reports
 {
-    public partial class HelloWorld
+    public partial class Employees
     {
-        public HelloWorld()
+        public Employees()
         {
             InitializeComponent();
         }

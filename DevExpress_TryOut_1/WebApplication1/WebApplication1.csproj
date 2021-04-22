@@ -5,13 +5,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="PredefinedReports\Employee2.vsrepx" />
+    <None Remove="PredefinedReports\Employees.vsrepx" />
+    <None Remove="PredefinedReports\XtraReport1.vsrepx" />
+    <None Remove="Reports\EmployeeReport.vsrepx" />
+    <None Remove="Reports\Employees.repx" />
     <None Remove="Reports\HelloWorld.repx" />
     <None Remove="Reports\HelloWorld.vsrepx" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Reports\HelloWorld.repx" />
-    <EmbeddedResource Include="Reports\HelloWorld.vsrepx" />
+    <EmbeddedResource Include="PredefinedReports\XtraReport1.vsrepx" />
+    <EmbeddedResource Include="Reports\Employees.repx" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,6 +24,36 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="PredefinedReports\Employee2.cs">
+      <DependentUpon>Employee2.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\Employee2.Designer.cs">
+      <DependentUpon>Employee2.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\Employees.cs">
+      <DependentUpon>Employees.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\Employees.Designer.cs">
+      <DependentUpon>Employees.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\XtraReport1.cs">
+      <DependentUpon>XtraReport1.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\XtraReport1.Designer.cs">
+      <DependentUpon>XtraReport1.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeReport.cs">
+      <DependentUpon>EmployeeReport.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeReport.Designer.cs">
+      <DependentUpon>EmployeeReport.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\Employees.cs">
+      <DependentUpon>Employees.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\Employees.Designer.cs">
+      <DependentUpon>Employees.repx</DependentUpon>
+    </Compile>
     <Compile Update="Reports\HelloWorld.cs">
       <DependentUpon>HelloWorld.vsrepx</DependentUpon>
     </Compile>
@@ -29,6 +64,11 @@
 
   <ItemGroup>
     <Folder Include="Components\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj" />
   </ItemGroup>
 
 </Project>
