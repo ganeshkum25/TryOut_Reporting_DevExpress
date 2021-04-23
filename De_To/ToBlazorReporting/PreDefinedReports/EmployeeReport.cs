@@ -9,5 +9,17 @@ namespace ToBlazorReporting.PreDefinedReports
         {
             InitializeComponent();
         }
+
+        private void tableCell3_PrintOnPage(object sender, PrintOnPageEventArgs e)
+        {
+            var cell = (XRTableCell)sender;
+            cell.Text = cell.Text + " (\"*!#©™®\")";
+        }
+
+        private void tableCell6_PrintOnPage(object sender, PrintOnPageEventArgs e)
+        {
+            var cell = (XRTableCell)sender;
+            cell.Text = cell.Text + " (mm)";
+        }
     }
 }

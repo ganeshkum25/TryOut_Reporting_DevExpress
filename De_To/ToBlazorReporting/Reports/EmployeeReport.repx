@@ -70,6 +70,6 @@
     <Item5 Ref="31" Name="PageInfo" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt, style=Bold" ForeColor="255,75,75,75" StringFormat="Near;Near;0;None;Character;Default" />
   </StyleSheet>
   <ComponentStorage>
-    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.ObjectBinding.ObjectDataSource,DevExpress.DataAccess.v20.2" Name="objectDataSource1" Base64="PE9iamVjdERhdGFTb3VyY2UgTmFtZT0ib2JqZWN0RGF0YVNvdXJjZTEiPjxEYXRhTWVtYmVyPkdldEVtcGxveWVlTGlzdDwvRGF0YU1lbWJlcj48Q29uc3RydWN0b3I+PFBhcmFtZXRlciBOYW1lPSJkZXBhcnRtZW50IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIj5NYW5hZ2VtZW50PC9QYXJhbWV0ZXI+PC9Db25zdHJ1Y3Rvcj48L09iamVjdERhdGFTb3VyY2U+" />
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.ObjectBinding.ObjectDataSource,DevExpress.DataAccess.v20.2" Name="objectDataSource1" Base64="PE9iamVjdERhdGFTb3VyY2UgTmFtZT0ib2JqZWN0RGF0YVNvdXJjZTEiPjxEYXRhU291cmNlIFR5cGU9IkVtcGxveWVlRGF0YVNvdXJjZSwgTW9kZWxzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIgLz48RGF0YU1lbWJlcj5HZXRFbXBsb3llZUxpc3Q8L0RhdGFNZW1iZXI+PENvbnN0cnVjdG9yPjxQYXJhbWV0ZXIgTmFtZT0iZGVwYXJ0bWVudCIgVHlwZT0iU3lzdGVtLlN0cmluZyI+TWFuYWdlbWVudDwvUGFyYW1ldGVyPjwvQ29uc3RydWN0b3I+PC9PYmplY3REYXRhU291cmNlPg==" />
   </ComponentStorage>
 </XtraReportsLayoutSerializer>
