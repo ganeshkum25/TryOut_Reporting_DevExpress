@@ -15,6 +15,12 @@ namespace ToBlazorReporting.Services
                 rep.DataSource = CreateObjectDataSource(reportEntry);
                 return rep;
             }
+            if (reportEntry.StartsWith("XtraReport1"))
+            {
+                XtraReport rep = CreateCompanyReport(reportEntry);
+                rep.DataSource = CreateObjectDataSource(reportEntry);
+                return rep;
+            }
 
             return new XtraReport();
         }
@@ -43,6 +49,25 @@ namespace ToBlazorReporting.Services
                 };
                 dataSource.Constructor = new ObjectConstructorInfo(parameter);
                 dataSource.DataMember = "GetEmployeeList";
+                return dataSource;
+            }
+            else
+
+            if (reportName == "XtraReport1")
+            {
+                //ObjectDataSource dataSource = new ObjectDataSource();
+                //dataSource.Name = "EmployeeObjectDS";
+                //dataSource.DataSource = typeof(EmployeeDataSource);
+                //dataSource.Constructor = ObjectConstructorInfo.Default;
+                //dataSource.DataMember = "GetEmployeeList";
+                //return dataSource;
+
+
+                ObjectDataSource dataSource = new ObjectDataSource();
+                dataSource.Name = "CompanyObjectDS";
+                dataSource.DataSource = typeof(EmployeeDataSource);
+                // Map data source parameter to report's parameter.
+                dataSource.DataMember = "GetCompanyList";
                 return dataSource;
             }
             else
@@ -86,6 +111,20 @@ namespace ToBlazorReporting.Services
                 return dataSource;
             }
         }
+
+        
+        private XtraReport CreateCompanyReport(string reportEntry)
+        {
+            if (reportEntry.Contains("Parameter"))
+            {
+                XtraReport report = new XtraReport1();
+                report.RequestParameters = false;
+                return report;
+            }
+            else
+                return new XtraReport1();
+        }
+
 
         private XtraReport CreateReport(string reportEntry)
         {

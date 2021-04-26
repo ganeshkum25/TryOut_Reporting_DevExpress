@@ -20,7 +20,10 @@ namespace ToBlazorReporting.PreDefinedReports {
             this.ReportHeader = reportInitializer.GetControl<DevExpress.XtraReports.UI.ReportHeaderBand>("ReportHeader");
             this.GroupHeader1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.GroupHeaderBand>("GroupHeader1");
             this.Detail = reportInitializer.GetControl<DevExpress.XtraReports.UI.DetailBand>("Detail");
+            this.ReportFooter = reportInitializer.GetControl<DevExpress.XtraReports.UI.ReportFooterBand>("ReportFooter");
+            this.richText1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRRichText>("richText1");
             this.pictureBox1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRPictureBox>("pictureBox1");
+            this.label3 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label3");
             this.pageInfo1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRPageInfo>("pageInfo1");
             this.pageInfo2 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRPageInfo>("pageInfo2");
             this.label1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label1");
@@ -34,10 +37,7 @@ namespace ToBlazorReporting.PreDefinedReports {
             this.tableCell4 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRTableCell>("tableCell4");
             this.tableCell5 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRTableCell>("tableCell5");
             this.tableCell6 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRTableCell>("tableCell6");
-            this.ReportFooter = reportInitializer.GetControl<DevExpress.XtraReports.UI.ReportFooterBand>("ReportFooter");
             this.label2 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label2");
-            this.richText1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRRichText>("richText1");
-            this.label3 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label3");
 
             // Data Sources
             this.objectDataSource1 = reportInitializer.GetDataSource<DevExpress.DataAccess.ObjectBinding.ObjectDataSource>("objectDataSource1");
@@ -56,7 +56,10 @@ namespace ToBlazorReporting.PreDefinedReports {
         private DevExpress.XtraReports.UI.ReportHeaderBand ReportHeader;
         private DevExpress.XtraReports.UI.GroupHeaderBand GroupHeader1;
         private DevExpress.XtraReports.UI.DetailBand Detail;
+        private DevExpress.XtraReports.UI.ReportFooterBand ReportFooter;
+        private DevExpress.XtraReports.UI.XRRichText richText1;
         private DevExpress.XtraReports.UI.XRPictureBox pictureBox1;
+        private DevExpress.XtraReports.UI.XRLabel label3;
         private DevExpress.XtraReports.UI.XRPageInfo pageInfo1;
         private DevExpress.XtraReports.UI.XRPageInfo pageInfo2;
         private DevExpress.XtraReports.UI.XRLabel label1;
@@ -70,6 +73,7 @@ namespace ToBlazorReporting.PreDefinedReports {
         private DevExpress.XtraReports.UI.XRTableCell tableCell4;
         private DevExpress.XtraReports.UI.XRTableCell tableCell5;
         private DevExpress.XtraReports.UI.XRTableCell tableCell6;
+        private DevExpress.XtraReports.UI.XRLabel label2;
         private DevExpress.DataAccess.ObjectBinding.ObjectDataSource objectDataSource1;
         private DevExpress.XtraReports.UI.XRControlStyle Title;
         private DevExpress.XtraReports.UI.XRControlStyle DetailCaption1;
@@ -77,9 +81,5 @@ namespace ToBlazorReporting.PreDefinedReports {
         private DevExpress.XtraReports.UI.XRControlStyle DetailData3_Odd;
         private DevExpress.XtraReports.UI.XRControlStyle PageInfo;
         private DevExpress.XtraReports.UI.XRControlStyle Style1;
-        private DevExpress.XtraReports.UI.ReportFooterBand ReportFooter;
-        private DevExpress.XtraReports.UI.XRLabel label2;
-        private DevExpress.XtraReports.UI.XRRichText richText1;
-        private DevExpress.XtraReports.UI.XRLabel label3;
     }
 }

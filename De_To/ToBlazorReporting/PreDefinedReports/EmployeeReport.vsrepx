@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<XtraReportsLayoutSerializer SerializerVersion="20.2.6.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="EmployeeReport" PageWidth="827" PageHeight="1169" Version="20.2" EventsInfo="|EmployeeReport,BeforePrint,EmployeeReport_BeforePrint;tableCell3,PrintOnPage,tableCell3_PrintOnPage;tableCell6,PrintOnPage,tableCell6_PrintOnPage" DataSource="#Ref-0">
+<XtraReportsLayoutSerializer SerializerVersion="20.2.6.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="EmployeeReport" PageWidth="827" PageHeight="1169" Version="20.2" EventsInfo="|EmployeeReport,BeforePrint,EmployeeReport_BeforePrint;tableCell3,PrintOnPage,tableCell3_PrintOnPage;tableCell4,Draw,tableCell4_Draw;tableCell5,Draw,tableCell4_Draw;tableCell6,PrintOnPage,tableCell6_PrintOnPage;tableCell6,Draw,tableCell4_Draw" DataSource="#Ref-0">
   <Extensions>
     <Item1 Ref="2" Key="VSReportExtInfo" Value=".vsrepx" />
   </Extensions>
   <Bands>
     <Item1 Ref="3" ControlType="TopMarginBand" Name="TopMargin">
       <Controls>
-        <Item1 Ref="4" ControlType="XRRichText" Name="richText1" SerializableRtfString="ewBcAHIAdABmADEAXABkAGUAZgBmADAAewBcAGYAbwBuAHQAdABiAGwAewBcAGYAMAAgAEMAYQBsAGkAYgByAGkAOwB9AHsAXABmADEAIABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEAbgA7AH0AewBcAGYAMgAgAEEAcgBpAGEAbAA7AH0AfQB7AFwAYwBvAGwAbwByAHQAYgBsACAAOwBcAHIAZQBkADAAXABnAHIAZQBlAG4AMABcAGIAbAB1AGUAMAAgADsAXAByAGUAZAAwAFwAZwByAGUAZQBuADAAXABiAGwAdQBlADIANQA1ACAAOwB9AHsAXAAqAFwAZABlAGYAYwBoAHAAIABcAGYAMQBcAGYAcwAyADQAfQB7AFwAcwB0AHkAbABlAHMAaABlAGUAdAAgAHsAXABxAGwAXABmADEAXABmAHMAMgA0ACAATgBvAHIAbQBhAGwAOwB9AHsAXAAqAFwAYwBzADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABEAGUAZgBhAHUAbAB0ACAAUABhAHIAYQBnAHIAYQBwAGgAIABGAG8AbgB0ADsAfQB7AFwAKgBcAGMAcwAyAFwAcwBiAGEAcwBlAGQAbwBuADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABMAGkAbgBlACAATgB1AG0AYgBlAHIAOwB9AHsAXAAqAFwAYwBzADMAXABmADEAXABmAHMAMgA0AFwAdQBsAFwAYwBmADIAIABIAHkAcABlAHIAbABpAG4AawA7AH0AewBcACoAXAB0AHMANABcAHQAcwByAG8AdwBkAFwAZgAxAFwAZgBzADIANABcAHEAbABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgBsADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAGwAMQAwADgAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAYgAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgB0ADMAXAB0AHMAdgBlAHIAdABhAGwAdABcAGMAbAB0AHgAbAByAHQAYgAgAE4AbwByAG0AYQBsACAAVABhAGIAbABlADsAfQB7AFwAKgBcAHQAcwA1AFwAdABzAHIAbwB3AGQAXABzAGIAYQBzAGUAZABvAG4ANABcAGYAMQBcAGYAcwAyADQAXABxAGwAXAB0AHIAYgByAGQAcgB0AFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGwAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAYgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgByAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGgAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAdgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAbAAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABsADEAMAA4AFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwB2AGUAcgB0AGEAbAB0AFwAYwBsAHQAeABsAHIAdABiACAAVABhAGIAbABlACAAUwBpAG0AcABsAGUAIAAxADsAfQB9AHsAXAAqAFwAbABpAHMAdABvAHYAZQByAHIAaQBkAGUAdABhAGIAbABlAH0AXABuAG8AdQBpAGMAbwBtAHAAYQB0AFwAaAB0AG0AYQB1AHQAcwBwAFwAcwBwAGwAeQB0AHcAbgBpAG4AZQBcAGEAbABuAHQAYgBsAGkAbgBkAFwAZQB4AHAAcwBoAHIAdABuAFwAcwBwAGwAdABwAGcAcABhAHIAXABuAG8AZwByAG8AdwBhAHUAdABvAGYAaQB0AFwAdQB0AGkAbgBsAFwAbgBvAGIAcgBrAHcAcgBwAHQAYgBsAFwAZgB0AG4AbAB5AHQAdwBuAGkAbgBlAFwAbgBvAHQAYwB2AGEAcwBwAFwAZgBvAHIAbQBzAGgAYQBkAGUAXABwAGEAcgBkAFwAcABsAGEAaQBuAFwAcQBsAHsAXABmADIAXABmAHMAMgAwAFwAbABhAG4AZwAxADAAMwAzAFwAbABhAG4AZwBmAGUAMQAwADMAMwBcAGMAZgAxACAASwBMAEkATgBHAEUATABOAEIARQBSAEcAIABSAGUAcABvAHIAdABpAG4AZwB9AFwAZgAyAFwAZgBzADIAMABcAGMAZgAxAFwAcABhAHIAfQA=" Padding="2,2,0,0,96" />
-        <Item2 Ref="5" ControlType="XRPictureBox" Name="pictureBox1" />
+        <Item1 Ref="4" ControlType="XRRichText" Name="richText1" SerializableRtfString="ewBcAHIAdABmADEAXABkAGUAZgBmADAAewBcAGYAbwBuAHQAdABiAGwAewBcAGYAMAAgAEMAYQBsAGkAYgByAGkAOwB9AHsAXABmADEAIABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEAbgA7AH0AewBcAGYAMgAgAEEAcgBpAGEAbAA7AH0AfQB7AFwAYwBvAGwAbwByAHQAYgBsACAAOwBcAHIAZQBkADAAXABnAHIAZQBlAG4AMABcAGIAbAB1AGUAMAAgADsAXAByAGUAZAAwAFwAZwByAGUAZQBuADAAXABiAGwAdQBlADIANQA1ACAAOwB9AHsAXAAqAFwAZABlAGYAYwBoAHAAIABcAGYAMQBcAGYAcwAyADQAfQB7AFwAcwB0AHkAbABlAHMAaABlAGUAdAAgAHsAXABxAGwAXABmADEAXABmAHMAMgA0ACAATgBvAHIAbQBhAGwAOwB9AHsAXAAqAFwAYwBzADEAXABmADEAXABmAHMAMgA0ACAARABlAGYAYQB1AGwAdAAgAFAAYQByAGEAZwByAGEAcABoACAARgBvAG4AdAA7AH0AewBcACoAXABjAHMAMgBcAHMAYgBhAHMAZQBkAG8AbgAxAFwAZgAxAFwAZgBzADIANABcAGMAZgAxACAATABpAG4AZQAgAE4AdQBtAGIAZQByADsAfQB7AFwAKgBcAGMAcwAzAFwAZgAxAFwAZgBzADIANABcAHUAbABcAGMAZgAyACAASAB5AHAAZQByAGwAaQBuAGsAOwB9AHsAXAAqAFwAdABzADQAXAB0AHMAcgBvAHcAZABcAGYAMQBcAGYAcwAyADQAXABxAGwAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAbAAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABsADEAMAA4AFwAdABzAGMAZQBsAGwAcABhAGQAZABmAGIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgByADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAHIAMQAwADgAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAdAAzAFwAdABzAHYAZQByAHQAYQBsAHQAXABjAGwAdAB4AGwAcgB0AGIAIABOAG8AcgBtAGEAbAAgAFQAYQBiAGwAZQA7AH0AewBcACoAXAB0AHMANQBcAHQAcwByAG8AdwBkAFwAcwBiAGEAcwBlAGQAbwBuADQAXABmADEAXABmAHMAMgA0AFwAcQBsAFwAdAByAGIAcgBkAHIAdABcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgBsAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGIAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAcgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgBoAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAHYAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdABzAGMAZQBsAGwAcABhAGQAZABmAGwAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAbAAxADAAOABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgByADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAHIAMQAwADgAXAB0AHMAdgBlAHIAdABhAGwAdABcAGMAbAB0AHgAbAByAHQAYgAgAFQAYQBiAGwAZQAgAFMAaQBtAHAAbABlACAAMQA7AH0AfQB7AFwAKgBcAGwAaQBzAHQAbwB2AGUAcgByAGkAZABlAHQAYQBiAGwAZQB9AFwAbgBvAHUAaQBjAG8AbQBwAGEAdABcAGgAdABtAGEAdQB0AHMAcABcAHMAcABsAHkAdAB3AG4AaQBuAGUAXABhAGwAbgB0AGIAbABpAG4AZABcAGUAeABwAHMAaAByAHQAbgBcAHMAcABsAHQAcABnAHAAYQByAFwAbgBvAGcAcgBvAHcAYQB1AHQAbwBmAGkAdABcAHUAdABpAG4AbABcAG4AbwBiAHIAawB3AHIAcAB0AGIAbABcAGYAdABuAGwAeQB0AHcAbgBpAG4AZQBcAG4AbwB0AGMAdgBhAHMAcABcAGYAbwByAG0AcwBoAGEAZABlAFwAcABhAHIAZABcAHAAbABhAGkAbgBcAHEAbAB7AFwAZgAyAFwAZgBzADIAMABcAGwAYQBuAGcAMQAwADMAMwBcAGwAYQBuAGcAZgBlADEAMAAzADMAXABjAGYAMQAgAEsATABJAE4ARwBFAEwATgBCAEUAUgBHACAAUgBlAHAAbwByAHQAaQBuAGcAfQBcAGYAMgBcAGYAcwAyADAAXABjAGYAMQBcAHAAYQByAH0A" Padding="2,2,0,0,100" />
+        <Item2 Ref="5" ControlType="XRPictureBox" Name="pictureBox1" ImageSource="svg,77u/PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAxNDYgMTI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIGlkPSJFYmVuZV8xIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxNDYgMTI0Ij4NCiAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojMDA4MEM5O30KCS5zdDF7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojMDA4MEM5O30KPC9zdHlsZT4NCiAgPGc+DQogICAgPGc+DQogICAgICA8cGF0aCBkPSJNOTIuMiw5OC4ySDUzLjhMMTYuOSw2MS4xTDczLjIsNC44bDU2LjMsNTYuM0w5Mi4yLDk4LjJ6IE01Ni44LDkxLjFoMzIuNGwzMC4xLTMwTDczLjIsMTQuOUwyNyw2MS4xICAgIEw1Ni44LDkxLjF6IiBjbGFzcz0ic3QwIiAvPg0KICAgIDwvZz4NCiAgICA8Zz4NCiAgICAgIDxwYXRoIGQ9Ik03My4yLDg2LjNjLTE0LjcsMC0yNi43LTEyLTI2LjctMjYuN2MwLTE0LjcsMTItMjYuNywyNi43LTI2LjdjMTQuNywwLDI2LjcsMTIsMjYuNywyNi43ICAgIEM5OS44LDc0LjQsODcuOSw4Ni4zLDczLjIsODYuM3ogTTczLjIsNDBjLTEwLjgsMC0xOS42LDguOC0xOS42LDE5LjZjMCwxMC44LDguOCwxOS42LDE5LjYsMTkuNmMxMC44LDAsMTkuNi04LjgsMTkuNi0xOS42ICAgIEM5Mi44LDQ4LjgsODQsNDAsNzMuMiw0MHoiIGNsYXNzPSJzdDAiIC8+DQogICAgPC9nPg0KICAgIDxnPg0KICAgICAgPHBvbHlnb24gcG9pbnRzPSIyLjksMTE4LjggNi42LDExOC44IDYuNiwxMTQuOSA3LjcsMTEzLjYgMTAuNiwxMTguOCAxNS4zLDExOC44IDEwLjIsMTEwLjcgMTQuNSwxMDUuNCAxMCwxMDUuNCAgICAgNi43LDExMCA2LjYsMTEwIDYuNiwxMDUuNCAyLjksMTA1LjQgMi45LDExOC44ICAgIiBjbGFzcz0ic3QwIiAvPg0KICAgIDwvZz4NCiAgICA8Zz4NCiAgICAgIDxwb2x5Z29uIHBvaW50cz0iMTYuNCwxMTguOCAyNS40LDExOC44IDI1LjQsMTE1LjQgMjAuMSwxMTUuNCAyMC4xLDEwNS40IDE2LjQsMTA1LjQgMTYuNCwxMTguOCAgICIgY2xhc3M9InN0MCIgLz4NCiAgICA8L2c+DQogICAgPGc+DQogICAgICA8cG9seWdvbiBwb2ludHM9IjI3LjMsMTE4LjggMzEsMTE4LjggMzEsMTA1LjQgMjcuMywxMDUuNCAyNy4zLDExOC44ICAgIiBjbGFzcz0ic3QwIiAvPg0KICAgIDwvZz4NCiAgICA8Zz4NCiAgICAgIDxwb2x5Z29uIHBvaW50cz0iMzMuMywxMTguOCAzNi44LDExOC44IDM2LjgsMTExLjUgMzYuOCwxMTEuNSA0MC41LDExOC44IDQ0LjEsMTE4LjggNDQuMSwxMDUuNCA0MC42LDEwNS40ICAgICA0MC42LDExMi42IDQwLjYsMTEyLjYgMzcuMSwxMDUuNCAzMy4zLDEwNS40IDMzLjMsMTE4LjggICAiIGNsYXNzPSJzdDAiIC8+DQogICAgPC9nPg0KICAgIDxnPg0KICAgICAgPHBvbHlnb24gcG9pbnRzPSI1OS40LDExOC44IDY5LjUsMTE4LjggNjkuNSwxMTUuNCA2My4xLDExNS40IDYzLjEsMTEzLjcgNjguNywxMTMuNyA2OC43LDExMC41IDYzLjEsMTEwLjUgICAgIDYzLjEsMTA4LjggNjkuMywxMDguOCA2OS4zLDEwNS40IDU5LjQsMTA1LjQgNTkuNCwxMTguOCAgICIgY2xhc3M9InN0MCIgLz4NCiAgICA8L2c+DQogICAgPGc+DQogICAgICA8cG9seWdvbiBwb2ludHM9IjcxLjUsMTE4LjggODAuNSwxMTguOCA4MC41LDExNS40IDc1LjIsMTE1LjQgNzUuMiwxMDUuNCA3MS41LDEwNS40IDcxLjUsMTE4LjggICAiIGNsYXNzPSJzdDAiIC8+DQogICAgPC9nPg0KICAgIDxnPg0KICAgICAgPHBvbHlnb24gcG9pbnRzPSI4MiwxMTguOCA4NS41LDExOC44IDg1LjUsMTExLjUgODUuNiwxMTEuNSA4OS4zLDExOC44IDkyLjksMTE4LjggOTIuOSwxMDUuNCA4OS40LDEwNS40IDg5LjQsMTEyLjYgICAgIDg5LjMsMTEyLjYgODUuOCwxMDUuNCA4MiwxMDUuNCA4MiwxMTguOCAgICIgY2xhc3M9InN0MCIgLz4NCiAgICA8L2c+DQogICAgPGc+DQogICAgICA8cGF0aCBkPSJNOTguNiwxMTMuMWgyLjNjMC45LDAsMS4zLDAuNCwxLjMsMS4yYzAsMS0wLjcsMS4zLTEuNCwxLjNoLTIuMlYxMTMuMUw5OC42LDExMy4xeiBNOTQuOSwxMTguOGg2LjggICAgYzIuMSwwLDQuMi0xLjQsNC4yLTQuMWMwLTItMS0yLjktMi4xLTMuNGMwLjktMC41LDEuNS0xLjMsMS41LTIuNmMwLTEuNC0wLjctMy40LTMuOC0zLjRoLTYuNlYxMTguOEw5NC45LDExOC44eiBNOTguNiwxMDguNmgyICAgIGMwLjgsMCwxLjMsMC4yLDEuMywwLjljMCwwLjktMC41LDEuMS0xLjMsMS4xaC0yVjEwOC42TDk4LjYsMTA4LjZ6IiBjbGFzcz0ic3QxIiAvPg0KICAgIDwvZz4NCiAgICA8Zz4NCiAgICAgIDxwb2x5Z29uIHBvaW50cz0iMTA3LjMsMTE4LjggMTE3LjUsMTE4LjggMTE3LjUsMTE1LjQgMTExLDExNS40IDExMSwxMTMuNyAxMTYuNywxMTMuNyAxMTYuNywxMTAuNSAxMTEsMTEwLjUgICAgIDExMSwxMDguOCAxMTcuMywxMDguOCAxMTcuMywxMDUuNCAxMDcuMywxMDUuNCAxMDcuMywxMTguOCAgICIgY2xhc3M9InN0MCIgLz4NCiAgICA8L2c+DQogICAgPGc+DQogICAgICA8cGF0aCBkPSJNMTE5LjUsMTE4LjhoMy43di00LjdoMmMxLjUsMCwxLjYsMS4zLDEuNywyLjZjMC4xLDAuNywwLjEsMS40LDAuMywyLjFoMy43Yy0wLjMtMC42LTAuNC0yLjItMC40LTIuOSAgICBjLTAuMS0xLjctMC44LTIuOS0xLjgtMy40YzEuMi0wLjUsMS44LTIsMS44LTMuNGMwLTIuNS0xLjgtMy44LTMuOS0zLjhoLTcuMVYxMTguOEwxMTkuNSwxMTguOHogTTEyMy4yLDEwOC42aDEuNyAgICBjMS40LDAsMS44LDAuNSwxLjgsMS4zYzAsMS4yLTAuOSwxLjMtMS42LDEuM2gtMS45VjEwOC42TDEyMy4yLDEwOC42eiIgY2xhc3M9InN0MSIgLz4NCiAgICA8L2c+DQogICAgPGc+DQogICAgICA8cGF0aCBkPSJNNTUuMSwxMTguOGgyLjN2LTcuNGgtNC45djIuOWgxLjZjLTAuMiwxLTEuMSwxLjUtMS45LDEuNWMtMi4zLDAtMi43LTIuMi0yLjctMy41YzAtMC45LTAuMS0zLjksMi41LTMuOSAgICBjMC45LDAsMS42LDAuNywxLjgsMS43aDMuNmMtMC41LTMuMi0yLjUtNS01LjUtNWMtMi43LDAtNS45LDIuMS01LjksNy4yYzAsMy44LDIuMiw2LjksNS43LDYuOWMxLjMsMCwyLjYtMC41LDMuNC0xLjdMNTUuMSwxMTguOCAgICBMNTUuMSwxMTguOHoiIGNsYXNzPSJzdDAiIC8+DQogICAgPC9nPg0KICAgIDxnPg0KICAgICAgPHBhdGggZD0iTTE0MC43LDExOC44aDIuM3YtNy40aC00Ljl2Mi45aDEuNmMtMC4yLDEtMS4xLDEuNS0xLjksMS41Yy0yLjMsMC0yLjctMi4yLTIuNy0zLjVjMC0wLjktMC4xLTMuOSwyLjUtMy45ICAgIGMwLjksMCwxLjYsMC43LDEuOCwxLjdoMy42Yy0wLjUtMy4yLTIuNS01LTUuNS01Yy0yLjcsMC01LjksMi4xLTUuOSw3LjJjMCwzLjgsMi4yLDYuOSw1LjcsNi45YzEuMywwLDIuNi0wLjUsMy40LTEuNyAgICBMMTQwLjcsMTE4LjhMMTQwLjcsMTE4Ljh6IiBjbGFzcz0ic3QwIiAvPg0KICAgIDwvZz4NCiAgPC9nPg0KPC9zdmc+" />
       </Controls>
     </Item1>
     <Item2 Ref="6" ControlType="BottomMarginBand" Name="BottomMargin">
       <Controls>
-        <Item1 Ref="7" ControlType="XRLabel" Name="label3" Multiline="true" Padding="2,2,0,0,96" />
+        <Item1 Ref="7" ControlType="XRLabel" Name="label3" Multiline="true" Padding="2,2,0,0,100" />
         <Item2 Ref="8" ControlType="XRPageInfo" Name="pageInfo1" PageInfo="DateTime" StyleName="PageInfo" />
         <Item3 Ref="9" ControlType="XRPageInfo" Name="pageInfo2" TextAlignment="TopRight" StyleName="PageInfo" />
       </Controls>
     </Item2>
-    <Item3 Ref="10" ControlType="ReportHeaderBand" Name="ReportHeader" Expanded="false">
+    <Item3 Ref="10" ControlType="ReportHeaderBand" Name="ReportHeader">
       <Controls>
         <Item1 Ref="11" ControlType="XRLabel" Name="label1" StyleName="Title" />
       </Controls>
     </Item3>
-    <Item4 Ref="12" ControlType="GroupHeaderBand" Name="GroupHeader1" GroupUnion="WithFirstDetail" Expanded="false">
+    <Item4 Ref="12" ControlType="GroupHeaderBand" Name="GroupHeader1" RepeatEveryPage="true" GroupUnion="WithFirstDetail">
       <Controls>
         <Item1 Ref="13" ControlType="XRTable" Name="table1">
           <Rows>
@@ -41,7 +41,7 @@
         </Item1>
       </Controls>
     </Item4>
-    <Item5 Ref="20" ControlType="DetailBand" Name="Detail" Expanded="false">
+    <Item5 Ref="20" ControlType="DetailBand" Name="Detail">
       <Controls>
         <Item1 Ref="21" ControlType="XRTable" Name="table2" OddStyleName="DetailData3_Odd">
           <Rows>
@@ -50,19 +50,22 @@
                 <Item1 Ref="23" ControlType="XRTableCell" Name="tableCell4" StyleName="DetailData1" Borders="None">
                   <ExpressionBindings>
                     <Item1 Ref="24" EventName="BeforePrint" PropertyName="Text" Expression="[Name]" />
+                    <Item2 Ref="25" EventName="BeforePrint" PropertyName="Visible" Expression="[Height]&gt;170" />
                   </ExpressionBindings>
-                  <StylePriority Ref="25" UseBorders="false" />
+                  <StylePriority Ref="26" UseBorders="false" />
                 </Item1>
-                <Item2 Ref="26" ControlType="XRTableCell" Name="tableCell5" StyleName="DetailData1">
+                <Item2 Ref="27" ControlType="XRTableCell" Name="tableCell5" StyleName="DetailData1">
                   <ExpressionBindings>
-                    <Item1 Ref="27" EventName="BeforePrint" PropertyName="Text" Expression="[Position]" />
+                    <Item1 Ref="28" EventName="BeforePrint" PropertyName="Text" Expression="[Position]" />
+                    <Item2 Ref="29" EventName="BeforePrint" PropertyName="Visible" Expression="[Height]&gt;170" />
                   </ExpressionBindings>
                 </Item2>
-                <Item3 Ref="28" ControlType="XRTableCell" Name="tableCell6" TextAlignment="MiddleRight" StyleName="DetailData1">
+                <Item3 Ref="30" ControlType="XRTableCell" Name="tableCell6" TextAlignment="MiddleRight" StyleName="DetailData1">
                   <ExpressionBindings>
-                    <Item1 Ref="29" EventName="BeforePrint" PropertyName="Text" Expression="[Height]" />
+                    <Item1 Ref="31" EventName="BeforePrint" PropertyName="Text" Expression="[Height]" />
+                    <Item2 Ref="32" EventName="BeforePrint" PropertyName="Visible" Expression="[Height]&gt;170" />
                   </ExpressionBindings>
-                  <StylePriority Ref="30" UseTextAlignment="false" />
+                  <StylePriority Ref="33" UseTextAlignment="false" />
                 </Item3>
               </Cells>
             </Item1>
@@ -70,61 +73,61 @@
         </Item1>
       </Controls>
     </Item5>
-    <Item6 Ref="31" ControlType="ReportFooterBand" Name="ReportFooter" Expanded="false">
+    <Item6 Ref="34" ControlType="ReportFooterBand" Name="ReportFooter" Expanded="false">
       <Controls>
-        <Item1 Ref="32" ControlType="XRLabel" Name="label2" Multiline="true" Padding="2,2,0,0,100" />
+        <Item1 Ref="35" ControlType="XRLabel" Name="label2" Multiline="true" Padding="2,2,0,0,100" />
       </Controls>
     </Item6>
   </Bands>
   <StyleSheet>
-    <Item1 Ref="33" Name="Title" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 14.25pt" ForeColor="255,75,75,75" BackColor="Transparent" BorderColor="Black" Sides="None" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="1" />
-    <Item2 Ref="34" Name="DetailCaption1" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt, style=Bold" ForeColor="White" BackColor="255,75,75,75" BorderColor="White" Sides="Left" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
-    <Item3 Ref="35" Name="DetailData1" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt" ForeColor="Black" BorderColor="Transparent" Sides="Left" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
-    <Item4 Ref="36" Name="DetailData3_Odd" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt" ForeColor="Black" BackColor="255,231,231,231" BorderColor="Transparent" Sides="None" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="1" />
-    <Item5 Ref="37" Name="PageInfo" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt, style=Bold" ForeColor="255,75,75,75" StringFormat="Near;Near;0;None;Character;Default" />
-    <Item6 Ref="38" Name="Style1" BorderStyle="Inset" StringFormat="Near;Near;0;None;Character;Default" />
+    <Item1 Ref="36" Name="Title" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 14.25pt" ForeColor="255,75,75,75" BackColor="Transparent" BorderColor="Black" Sides="None" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="1" />
+    <Item2 Ref="37" Name="DetailCaption1" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt, style=Bold" ForeColor="White" BackColor="255,75,75,75" BorderColor="White" Sides="Left" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
+    <Item3 Ref="38" Name="DetailData1" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt" ForeColor="Black" BorderColor="Transparent" Sides="Left" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
+    <Item4 Ref="39" Name="DetailData3_Odd" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt" ForeColor="Black" BackColor="255,231,231,231" BorderColor="Transparent" Sides="None" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="1" />
+    <Item5 Ref="40" Name="PageInfo" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt, style=Bold" ForeColor="255,75,75,75" StringFormat="Near;Near;0;None;Character;Default" />
+    <Item6 Ref="41" Name="Style1" BorderStyle="Inset" StringFormat="Near;Near;0;None;Character;Default" />
   </StyleSheet>
   <LocalizationItems>
-    <Item1 Ref="39" Component="#Ref-20" Culture="Default" Path="HeightF" Data="25" />
-    <Item2 Ref="40" Component="#Ref-1" Culture="Default" Path="Font" Data="Arial, 9.75pt" />
-    <Item3 Ref="41" Component="#Ref-1" Culture="Default" Path="PaperKind" Data="A4" />
-    <Item4 Ref="42" Component="#Ref-12" Culture="Default" Path="HeightF" Data="28" />
-    <Item5 Ref="43" Component="#Ref-11" Culture="Default" Path="LocationFloat" Data="0,0" />
-    <Item6 Ref="44" Component="#Ref-11" Culture="Default" Path="SizeF" Data="627,24.194334" />
-    <Item7 Ref="45" Component="#Ref-11" Culture="Default" Path="Text" Data="Employee Report" />
-    <Item8 Ref="46" Component="#Ref-32" Culture="Default" Path="LocationFloat" Data="46.8333435,39.666748" />
-    <Item9 Ref="47" Component="#Ref-32" Culture="Default" Path="SizeF" Data="266.666656,22.9999886" />
-    <Item10 Ref="48" Component="#Ref-32" Culture="Default" Path="Text" Data="Thanks for using KL Reports" />
-    <Item11 Ref="49" Component="#Ref-7" Culture="Default" Path="LocationFloat" Data="184.044449,0" />
-    <Item12 Ref="50" Component="#Ref-7" Culture="Default" Path="SizeF" Data="100,23" />
-    <Item13 Ref="51" Component="#Ref-7" Culture="Default" Path="Text" Data="KL Report" />
-    <Item14 Ref="52" Component="#Ref-8" Culture="Default" Path="LocationFloat" Data="0,0" />
-    <Item15 Ref="53" Component="#Ref-8" Culture="Default" Path="SizeF" Data="142.666672,23" />
-    <Item16 Ref="54" Component="#Ref-9" Culture="Default" Path="LocationFloat" Data="466.3333,0" />
-    <Item17 Ref="55" Component="#Ref-9" Culture="Default" Path="SizeF" Data="160.166626,23" />
-    <Item18 Ref="56" Component="#Ref-9" Culture="Default" Path="TextFormatString" Data="Page {0} of {1}" />
-    <Item19 Ref="57" Component="#Ref-5" Culture="Default" Path="LocationFloat" Data="0,0" />
-    <Item20 Ref="58" Component="#Ref-5" Culture="Default" Path="SizeF" Data="100,100" />
-    <Item21 Ref="59" Component="#Ref-10" Culture="Default" Path="HeightF" Data="60" />
-    <Item22 Ref="60" Component="#Ref-4" Culture="Default" Path="Font" Data="Arial, 9.75pt" />
-    <Item23 Ref="61" Component="#Ref-4" Culture="Default" Path="LocationFloat" Data="172.5,10" />
-    <Item24 Ref="62" Component="#Ref-4" Culture="Default" Path="SizeF" Data="252.426544,31.33334" />
-    <Item25 Ref="63" Component="#Ref-13" Culture="Default" Path="LocationFloat" Data="0,0" />
-    <Item26 Ref="64" Component="#Ref-13" Culture="Default" Path="SizeF" Data="627,28" />
-    <Item27 Ref="65" Component="#Ref-21" Culture="Default" Path="LocationFloat" Data="0,0" />
-    <Item28 Ref="66" Component="#Ref-21" Culture="Default" Path="SizeF" Data="627,25" />
-    <Item29 Ref="67" Component="#Ref-15" Culture="Default" Path="Text" Data="Name" />
-    <Item30 Ref="68" Component="#Ref-15" Culture="Default" Path="Weight" Data="0.29353181635173692" />
-    <Item31 Ref="69" Component="#Ref-17" Culture="Default" Path="Text" Data="Position" />
-    <Item32 Ref="70" Component="#Ref-17" Culture="Default" Path="Weight" Data="0.38418204324287281" />
-    <Item33 Ref="71" Component="#Ref-18" Culture="Default" Path="Text" Data="Height" />
-    <Item34 Ref="72" Component="#Ref-18" Culture="nl" Path="Text" Data="Height in dutch" />
-    <Item35 Ref="73" Component="#Ref-18" Culture="Default" Path="Weight" Data="0.32228618907776363" />
-    <Item36 Ref="74" Component="#Ref-23" Culture="Default" Path="Weight" Data="0.29353179201555024" />
-    <Item37 Ref="75" Component="#Ref-26" Culture="Default" Path="Weight" Data="0.38418201890668613" />
-    <Item38 Ref="76" Component="#Ref-28" Culture="Default" Path="Weight" Data="0.32228616474157695" />
-    <Item39 Ref="77" Component="#Ref-14" Culture="Default" Path="Weight" Data="1" />
-    <Item40 Ref="78" Component="#Ref-22" Culture="Default" Path="Weight" Data="11.5" />
+    <Item1 Ref="42" Component="#Ref-20" Culture="Default" Path="HeightF" Data="25" />
+    <Item2 Ref="43" Component="#Ref-1" Culture="Default" Path="Font" Data="Arial, 9.75pt" />
+    <Item3 Ref="44" Component="#Ref-1" Culture="Default" Path="PaperKind" Data="A4" />
+    <Item4 Ref="45" Component="#Ref-12" Culture="Default" Path="HeightF" Data="28" />
+    <Item5 Ref="46" Component="#Ref-11" Culture="Default" Path="LocationFloat" Data="0,0" />
+    <Item6 Ref="47" Component="#Ref-11" Culture="Default" Path="SizeF" Data="627,24.194334" />
+    <Item7 Ref="48" Component="#Ref-11" Culture="Default" Path="Text" Data="Employee Report" />
+    <Item8 Ref="49" Component="#Ref-35" Culture="Default" Path="LocationFloat" Data="46.8333435,39.666748" />
+    <Item9 Ref="50" Component="#Ref-35" Culture="Default" Path="SizeF" Data="266.666656,22.9999886" />
+    <Item10 Ref="51" Component="#Ref-35" Culture="Default" Path="Text" Data="Thanks for using KL Reports" />
+    <Item11 Ref="52" Component="#Ref-7" Culture="Default" Path="LocationFloat" Data="184.044449,0" />
+    <Item12 Ref="53" Component="#Ref-7" Culture="Default" Path="SizeF" Data="100,23" />
+    <Item13 Ref="54" Component="#Ref-7" Culture="Default" Path="Text" Data="KL Report" />
+    <Item14 Ref="55" Component="#Ref-8" Culture="Default" Path="LocationFloat" Data="0,0" />
+    <Item15 Ref="56" Component="#Ref-8" Culture="Default" Path="SizeF" Data="142.666672,23" />
+    <Item16 Ref="57" Component="#Ref-9" Culture="Default" Path="LocationFloat" Data="466.3333,0" />
+    <Item17 Ref="58" Component="#Ref-9" Culture="Default" Path="SizeF" Data="160.166626,23" />
+    <Item18 Ref="59" Component="#Ref-9" Culture="Default" Path="TextFormatString" Data="Page {0} of {1}" />
+    <Item19 Ref="60" Component="#Ref-5" Culture="Default" Path="LocationFloat" Data="0,0" />
+    <Item20 Ref="61" Component="#Ref-5" Culture="Default" Path="SizeF" Data="142.666672,100" />
+    <Item21 Ref="62" Component="#Ref-10" Culture="Default" Path="HeightF" Data="60" />
+    <Item22 Ref="63" Component="#Ref-4" Culture="Default" Path="Font" Data="Arial, 9.75pt" />
+    <Item23 Ref="64" Component="#Ref-4" Culture="Default" Path="LocationFloat" Data="172.5,10" />
+    <Item24 Ref="65" Component="#Ref-4" Culture="Default" Path="SizeF" Data="252.426544,31.33334" />
+    <Item25 Ref="66" Component="#Ref-13" Culture="Default" Path="LocationFloat" Data="0,0" />
+    <Item26 Ref="67" Component="#Ref-13" Culture="Default" Path="SizeF" Data="627,28" />
+    <Item27 Ref="68" Component="#Ref-21" Culture="Default" Path="LocationFloat" Data="0,0" />
+    <Item28 Ref="69" Component="#Ref-21" Culture="Default" Path="SizeF" Data="627,25" />
+    <Item29 Ref="70" Component="#Ref-15" Culture="Default" Path="Text" Data="Name" />
+    <Item30 Ref="71" Component="#Ref-15" Culture="Default" Path="Weight" Data="0.29353181635173692" />
+    <Item31 Ref="72" Component="#Ref-17" Culture="Default" Path="Text" Data="Position" />
+    <Item32 Ref="73" Component="#Ref-17" Culture="Default" Path="Weight" Data="0.38418204324287281" />
+    <Item33 Ref="74" Component="#Ref-18" Culture="Default" Path="Text" Data="Height" />
+    <Item34 Ref="75" Component="#Ref-18" Culture="nl" Path="Text" Data="Height in dutch" />
+    <Item35 Ref="76" Component="#Ref-18" Culture="Default" Path="Weight" Data="0.32228618907776363" />
+    <Item36 Ref="77" Component="#Ref-23" Culture="Default" Path="Weight" Data="0.29353179201555024" />
+    <Item37 Ref="78" Component="#Ref-27" Culture="Default" Path="Weight" Data="0.38418201890668613" />
+    <Item38 Ref="79" Component="#Ref-30" Culture="Default" Path="Weight" Data="0.32228616474157695" />
+    <Item39 Ref="80" Component="#Ref-14" Culture="Default" Path="Weight" Data="1" />
+    <Item40 Ref="81" Component="#Ref-22" Culture="Default" Path="Weight" Data="11.5" />
   </LocalizationItems>
   <ComponentStorage>
     <Item1 Ref="0" ObjectType="DevExpress.DataAccess.ObjectBinding.ObjectDataSource,DevExpress.DataAccess.v20.2" Name="objectDataSource1" Base64="PE9iamVjdERhdGFTb3VyY2UgTmFtZT0ib2JqZWN0RGF0YVNvdXJjZTEiPjxEYXRhTWVtYmVyPkdldEVtcGxveWVlTGlzdDwvRGF0YU1lbWJlcj48Q29uc3RydWN0b3I+PFBhcmFtZXRlciBOYW1lPSJkZXBhcnRtZW50IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIj5NYW5hZ2VtZW50PC9QYXJhbWV0ZXI+PC9Db25zdHJ1Y3Rvcj48L09iamVjdERhdGFTb3VyY2U+" />

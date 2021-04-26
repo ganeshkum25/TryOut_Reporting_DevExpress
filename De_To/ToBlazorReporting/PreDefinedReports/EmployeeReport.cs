@@ -20,5 +20,10 @@ namespace ToBlazorReporting.PreDefinedReports
             var cell = (XRTableCell)sender;
             cell.Text = cell.Text + " (mm)";
         }
+
+        private void tableCell4_Draw(object sender, DrawEventArgs e)
+        {
+
+        }
     }
 }

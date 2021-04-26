@@ -8,7 +8,8 @@ namespace ToBlazorReporting.PreDefinedReports
     {
         public static Dictionary<string, Func<XtraReport>> Reports = new Dictionary<string, Func<XtraReport>>()
         {
-            ["EmployeeReport"] = () => new EmployeeReport()
+            ["EmployeeReport"] = () => new EmployeeReport(),
+            ["XtraReport1"] = () => new XtraReport1()
         };
     }
 }
