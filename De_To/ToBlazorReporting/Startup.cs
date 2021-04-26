@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Globalization;
 using DevExpress.AspNetCore;
 using DevExpress.AspNetCore.Reporting;
 using DevExpress.Blazor.Reporting;
@@ -6,6 +8,8 @@ using DevExpress.XtraReports.Web.Extensions;
 using DevExpress.XtraReports.Web.WebDocumentViewer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.Localization.Routing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -30,6 +34,7 @@ namespace ToBlazorReporting
             services.AddDevExpressControls();
             services.AddScoped<ReportStorageWebExtension, CustomReportStorageWebExtension>();
             services.AddTransient<IWebDocumentViewerReportResolver, CustomWebDocumentViewerReportResolver>();
+            services.AddLocalization(options => options.ResourcesPath = "Resources");
 
             services.AddRazorPages();
             services.AddServerSideBlazor();
@@ -52,6 +57,7 @@ namespace ToBlazorReporting
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
+            app.UseRequestLocalization(GetLocalizationOptions());
             var reportingLogger = loggerFactory.CreateLogger("DXReporting");
             DevExpress.XtraReports.Web.ClientControls.LoggerService.Initialize((exception, message) =>
             {
@@ -73,7 +79,7 @@ namespace ToBlazorReporting
             app.UseStaticFiles();
 
             app.UseRouting();
-            
+
             app.UseDevExpressBlazorReporting();
             app.UseEndpoints(endpoints =>
             {
@@ -82,5 +88,31 @@ namespace ToBlazorReporting
                 endpoints.MapFallbackToPage("/_Host");
             });
         }
+        private RequestLocalizationOptions GetLocalizationOptions()
+        {
+            var englishCulture = new CultureInfo(CultureConstants.EnglishCulture);
+            var germanCulture = new CultureInfo(CultureConstants.GermanCulture);
+            var spanishMexicoCulture = new CultureInfo(CultureConstants.SpanishMexicoCulture);
+            var chineseCulture = new CultureInfo(CultureConstants.ChineseCulture);
+            var supportedCultures = new List<CultureInfo> { englishCulture };
+            var supportedUICultures = new List<CultureInfo> { englishCulture, germanCulture, spanishMexicoCulture, chineseCulture };
+            var localizationOptions = new RequestLocalizationOptions
+            {
+                DefaultRequestCulture = new RequestCulture(englishCulture),
+                SupportedCultures = supportedCultures,
+                SupportedUICultures = supportedUICultures
+            };
+            localizationOptions.RequestCultureProviders.Insert(0, new RouteDataRequestCultureProvider());
+            return localizationOptions;
+        }
+
+    }
+    public class CultureConstants
+    {
+        public const string EnglishCulture = "en-US";
+        public const string GermanCulture = "de-DE";
+        public const string SpanishMexicoCulture = "es-MX";
+
+        public const string ChineseCulture = "zh-Hans";
     }
 }

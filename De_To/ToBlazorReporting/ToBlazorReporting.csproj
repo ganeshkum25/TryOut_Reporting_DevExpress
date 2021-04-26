@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="DevExpress.Blazor.de" Version="20.2.6" />
     <PackageReference Include="DevExpress.Blazor.Reporting" Version="20.2.6" />
   </ItemGroup>
 
@@ -35,6 +36,21 @@
     <Compile Update="Reports\EmployeeReport.Designer.cs">
       <DependentUpon>EmployeeReport.repx</DependentUpon>
     </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\LocalizationRes.de.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\LocalizationRes.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\DevExpress.Blazor.v20.2.resources.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

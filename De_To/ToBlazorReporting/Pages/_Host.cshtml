@@ -1,4 +1,6 @@
 ﻿@page "/"
+@using System.Globalization
+@using Microsoft.AspNetCore.Localization
 @namespace ToBlazorReporting.Pages
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
@@ -15,8 +17,25 @@
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link href="css/site.css" rel="stylesheet" />
     <link href="TryOutBlazorReporting.styles.css" rel="stylesheet" />
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/reporting_ClientSide.js"></script>
+    <script>
+        function onCustomizeLocalization(s, e) {
+            e.LoadMessages($.get("/js/localization/dx-analytics-core.de.json"));
+            e.LoadMessages($.get("/js/localization/dx-reporting.de.json"));
+        }
+    </script>
 </head>
 <body>
+
+    @{
+        this.HttpContext.Response.Cookies.Append(
+            CookieRequestCultureProvider.DefaultCookieName,
+            CookieRequestCultureProvider.MakeCookieValue(
+                new RequestCulture(
+                    CultureInfo.CurrentCulture,
+                    CultureInfo.CurrentUICulture)));
+    }
     <component type="typeof(App)" render-mode="ServerPrerendered" />
 
     <div id="blazor-error-ui">

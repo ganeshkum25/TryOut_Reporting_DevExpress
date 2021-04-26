@@ -10,10 +10,9 @@ namespace ToBlazorReporting.PreDefinedReports
             InitializeComponent();
         }
 
-        private void tableCell3_PrintOnPage(object sender, PrintOnPageEventArgs e)
+        private void EmployeeReport_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
         {
-            var cell = (XRTableCell)sender;
-            cell.Text = cell.Text + " (\"*!#©™®\")";
+            ApplyLocalization("en-US");
         }
 
         private void tableCell6_PrintOnPage(object sender, PrintOnPageEventArgs e)
